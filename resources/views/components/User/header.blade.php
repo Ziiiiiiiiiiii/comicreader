@@ -1,7 +1,7 @@
 <!-- Header -->
 <nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
     <div class="container d-flex justify-content-between align-items-center">
-        <a class="navbar-brand h1" href="/home">
+        <a class="navbar-brand h1" href="/">
             <img src="/assets2/img/ComicReaderIcon.png" width="50px">
             <span class="text-light h4">Comic</span><span class="text-danger h4">Reader</span>
         </a>

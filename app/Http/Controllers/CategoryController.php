@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
 use App\Models\Category;
+use App\Models\Article;
+use App\Models\Tag;
 
 class CategoryController extends Controller
 {
@@ -53,8 +55,17 @@ class CategoryController extends Controller
 
     public function delete($id){
         $category = Category::find($id);
+        $tags = Tag::where('category_id', $id)->get();
+        $articles = Article::where('category_id', $id)->get();
         File::delete(public_path('CategoryImage/' . $category->image));
         $category->delete();
+
+        foreach ( $tags as $tag ){
+            $tag->delete();
+        }
+        foreach ( $articles as $article ){
+            $article->delete();
+        }
 
         return redirect('/category_table');
     }

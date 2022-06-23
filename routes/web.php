@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Article.User.home');
 });
 
 // Admin
@@ -52,7 +52,7 @@ Route::get('/', function () {
 
 // User
     // Home
-    Route::get('/home', [App\Http\Controllers\UserInterfaceController::class, 'home']);
+    Route::get('/', [App\Http\Controllers\UserInterfaceController::class, 'home']);
     
     // Article
     Route::get('/explore', [App\Http\Controllers\UserInterfaceController::class, 'explore']);

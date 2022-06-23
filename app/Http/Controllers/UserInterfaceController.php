@@ -12,7 +12,7 @@ use Ap\Models\Tag;
 class UserInterfaceController extends Controller
 {
     public function home(){
-        $articles = Article::all();
+        $articles = Article::latest()->get();
         $categories = Category::all();
         return view('Article.User.home', compact('articles', 'categories'));
     }

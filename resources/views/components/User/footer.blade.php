@@ -64,7 +64,8 @@
                     </li>
                     <li class="pb-2">
                         <i class='bx bxl-instagram'></i><a class="text-decoration-none text-light py-1"
-                            href="https://www.instagram.com/zizizizizizizizizizizidane/">&nbsp;@zizizizizizizizizizizidane</a>
+                            href="https://www.instagram.com/zizizizizizizizizizizidane/"
+                            target="__blank">&nbsp;@zizizizizizizizizizizidane</a>
                     </li>
                 </ul>
             </div>

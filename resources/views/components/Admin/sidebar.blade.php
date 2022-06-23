@@ -1,7 +1,7 @@
 <!-- ======== sidebar-nav start =========== -->
 <aside class="sidebar-nav-wrapper">
     <div class="navbar-logo">
-        <a href="/home">
+        <a href="/" target="__blank">
             <img src="/assets2/img/ComicReaderIcon.png" alt="logo" width="45px" />
         </a>
     </div>

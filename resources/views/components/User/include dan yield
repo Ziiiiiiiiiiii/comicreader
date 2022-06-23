@@ -1,5 +1,0 @@
-<!-- @include('components.User.orderby') -->
-
-<!-- @include('components.User.category') -->
-
-<!-- @include('components.User.slider') -->

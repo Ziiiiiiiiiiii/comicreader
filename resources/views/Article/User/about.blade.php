@@ -26,12 +26,13 @@
             </p>
         </div>
         <div class="team-member col-lg-4">
-            <img class="team-member-img img-fluid rounded-circle p-4" src="/assets2/img/i_enjoy.jpeg" alt="Card image">
+            <img class="team-member-img img-fluid rounded-circle p-4" src="/assets2/img/photoprofile.png"
+                alt="Card image">
             <ul class="team-member-caption list-unstyled text-center pt-4 light-300">
                 <li>
-                    <h4>
-                        Zidane
-                    </h4>
+                    <h6>
+                        <b>Muhammad Rayzidane Nazher Dinata</b>
+                    </h6>
                 </li>
                 <li>
                     <h6>

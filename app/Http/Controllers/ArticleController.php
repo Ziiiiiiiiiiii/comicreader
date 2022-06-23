@@ -70,9 +70,10 @@ class ArticleController extends Controller
     public function delete($id){
         $article = Article::find($id);
         $subcontents = SubContent::where('article_id', $id)->get();
+        File::delete(public_path('ArticleImage/' . $article->image));
         $article->delete();
         foreach ( $subcontents as $subcontent ){
-            File::delete(public_path('ArticleImage/' . $article->image));
+            File::delete(public_path('SubContentImage/' . $subcontent->image));
             $subcontent->delete();
         }
 

@@ -7,7 +7,7 @@
                           <p class="text-sm">
                               Designed and Developed by
                               <a href="https://www.instagram.com/zizizizizizizizizizizidane/" rel="nofollow"
-                                  target="_blank">
+                                  target="__blank">
                                   <i class="lni lni-instagram-original"></i>
                                   Zi&e
                               </a>

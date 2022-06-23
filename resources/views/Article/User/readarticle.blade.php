@@ -80,7 +80,7 @@
                             </h2>
                         </thead>
                         <tbody>
-                            @foreach ( $articles->take(3) as $article )
+                            @foreach ( $articles->take(4) as $article )
                             <div class="col-xl-12 col-md-4 col-sm-6 project ui branding">
                                 <a href="/read_article/{{ $article->id }}"
                                     class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
